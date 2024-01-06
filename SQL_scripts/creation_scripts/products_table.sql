@@ -9,6 +9,3 @@ CREATE TABLE Products (
     Platform VARCHAR(255),
     DevID INT REFERENCES Developers(DevID)
 );
-
--- Importing data from csv 
-COPY Products FROM '/path/products' DELIMITER ',' CSV HEADER;

@@ -9,6 +9,3 @@ CREATE TABLE Customers (
     ContactNumber VARCHAR(255),
     Address TEXT
 );
-
--- Importing data from csv 
-COPY Customers FROM '/path/customer.csv' DELIMITER ',' CSV HEADER;

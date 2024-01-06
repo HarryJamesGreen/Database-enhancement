@@ -10,6 +10,3 @@ CREATE TABLE Orders (
     PaymentSuccessful BOOLEAN,
     TransactionDate DATE
 );
-
--- Importing data from csv 
-COPY Orders FROM '/path/orders.csv' DELIMITER

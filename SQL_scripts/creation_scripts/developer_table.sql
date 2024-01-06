@@ -11,6 +11,3 @@ CREATE TABLE Developers (
     AlternativeNumber VARCHAR(255),
     SupportEmail VARCHAR(255)
 );
-
--- Importing data from csv 
-COPY Developers FROM '/path/developer.csv' DELIMITER ',' CSV HEADER;
